@@ -1,6 +1,22 @@
 //= require /jquery/dist/jquery
 //= require angular/angular
+//= require bootstrap/dist/js/bootstrap
+//= require metisMenu/dist/metisMenu.min
+//= require underscore/underscore
+//= require angular-ui-router/release/angular-ui-router
+//= require angular-resource/angular-resource
+//= require angular-cookies/angular-cookies
+//= require angular-messages/angular-messages
+//= require angular-translate/angular-translate
+//= require angular-translate-loader-static-files/angular-translate-loader-static-files
+//= require app.config
+//= require directives/app.directive
+//= require directives/app.directive.service
 //= require app
-//= require_tree views
+//= require user/user.module
+//= require user/service/user.service.Local
+//= require user/service/user.authenticationService
+//= require user/controller/user.controller
+//= require home/home.controller
+
 //= require_self
-console.log("angrails manifest load complete.");

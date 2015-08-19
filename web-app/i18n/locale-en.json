@@ -1,0 +1,33 @@
+{
+  "title.welcome": "Welcome!",
+  "login.panel.title": "Please sign in",
+  "login.message.invalid.email": "Invalid email address",
+  "login.message.invalid.userpass": "Invalid username or password",
+  "login.field.email": "E-mail",
+  "login.field.password": "Password",
+  "login.field.rememberMe": "Remember Me",
+  "login.button.login": "Login",
+
+  "home.nav.dashboard":"Dashboard",
+  "home.nav.user":"User",
+  "home.nav.userManagement":"user Management",
+  "home.nav.myAccount":"My Account",
+
+  "user.management.title" : "User Management",
+  "user.management.form.title":"User Informations",
+  "user.management.label.email" : "Email",
+  "user.management.label.details" : "Details",
+  "user.management.label.userGroup" : "User Group",
+  "user.management.label.enabled" : "Enabled",
+
+  "user.profile.title" : "My Account",
+  "user.profile.form.myProfile":"My Profile",
+  "user.profile.label.joinTime" : "Join Time",
+  "user.profile.label.name" : "Name",
+  "user.profile.label.userGroup" : "User Group",
+  "user.profile.form.emailManagement" : "Email Management",
+  "user.profile.label.email" : "Email",
+  "user.profile.label.email.helpInfo" : "To change your email, you need to verify your email address again",
+  "user.profile.label.password" : "Password",
+  "user.profile.label.newsInfo" : "Subscribe News Letter"
+}

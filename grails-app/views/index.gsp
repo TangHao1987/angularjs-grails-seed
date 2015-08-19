@@ -6,6 +6,8 @@
 
 	</head>
 	<body>
-        <h1>{{helloWorld}}</h1>
+        <div class="view-container">
+            <div ui-view class="view-frame"></div>
+        </div>
 	</body>
 </html>

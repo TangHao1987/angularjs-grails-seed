@@ -1,0 +1,98 @@
+[
+  {
+    "name": "home.nav.dashboard",
+    "class": "fa-dashboard",
+    "url": "index.html"
+  },
+  {
+    "name": "home.nav.user",
+    "class": "fa-user",
+    "subItems": [
+      {
+        "name": "home.nav.userManagement",
+        "url": "userManagement"
+      },
+      {
+        "name": "home.nav.myAccount",
+        "url": "userProfile"
+      }
+    ]
+  },
+  {
+    "name": "Charts",
+    "class": "fa-bar-chart-o",
+    "subItems": [
+      {
+        "name": "Flot Charts",
+        "url": "public/pages/flot.html"
+      },
+      {
+        "name": "Morris.js Charts",
+        "url": "public/pages/morris.html"
+      }
+    ]
+  },
+  {
+    "name": "Tables",
+    "class": "fa-table",
+    "url": "public/pages/tables.html"
+  },
+  {
+    "name": "Forms",
+    "class": "fa-edit",
+    "url": "public/pages/forms.html"
+  },
+  {
+    "name": "UI Elements",
+    "class": "fa-wrench",
+    "subItems": [
+      {
+        "name": "Panels and Wells",
+        "url": "public/pages/panels-wells.html"
+      },
+      {
+        "name": "Buttons",
+        "url": "public/pages/buttons.html"
+      },
+      {
+        "name": "Notifications",
+        "url": "public/pages/notifications.html"
+      },
+      {
+        "name": "Typography",
+        "url": "public/pages/typography.html"
+      },
+      {
+        "name": "Icons",
+        "url": "public/pages/icons.html"
+      },
+      {
+        "name": "Grid",
+        "url": "public/pages/grid.html"
+      }
+    ]
+  },
+  {
+    "name": "Multi-Level Dropdown",
+    "class": "fa-sitemap",
+    "subItems": [
+      {
+        "name": "Second Level Item",
+        "url": "public/pages/secondLevel.html"
+      },
+      {
+        "name": "Second Level Item",
+        "subItems": [
+          {
+            "name": "third Level Item",
+            "url": "public/pages/thirdLevel.html"
+          },
+          {
+            "name": "third Level Item",
+            "url": "public/pages/thirdLevel.html"
+          }
+        ]
+      }
+    ]
+  }
+]

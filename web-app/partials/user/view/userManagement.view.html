@@ -1,0 +1,36 @@
+<h1>
+    {{'user.management.title' | translate}}
+</h1>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        {{'user.management.form.title' | translate}}
+    </div>
+    <!-- /.panel-heading -->
+    <div class="panel-body">
+        <div class="dataTable_wrapper">
+            <table class="table table-striped table-bordered table-hover" id="userTable">
+                <thead>
+                <tr>
+                    <th>{{'user.management.label.email' | translate}}</th>
+                    <th>{{'user.management.label.details' | translate}}</th>
+                    <th>{{'user.management.label.userGroup' | translate}}</th>
+                    <th>{{'user.management.label.enabled' | translate}}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="row in users">
+                    <td>{{row.email}}</td>
+                    <td>{{'user.management.label.details' | translate}}</td>
+                    <td>{{row.userGroup}}</td>
+                    <td>
+                        <input type="checkbox" checked="{{row.enabled}}" ng-model="row.enabled"
+                               ng-disabled="row.userGroup === 'admin'" title="Enabled">
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- /.panel-body -->
+</div>
+<!-- /.panel -->

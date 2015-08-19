@@ -1,0 +1,33 @@
+{
+  "title.welcome": "\u6b22\u8fce!",
+  "login.panel.title": "\u8bf7\u767b\u5f55",
+  "login.message.invalid.email": "\u90ae\u4ef6\u683c\u5f0f\u9519\u8bef",
+  "login.message.invalid.userpass": "\u7528\u6237\u540d\u6216\u5bc6\u7801\u9519\u8bef",
+  "login.field.email": "\u8bf7\u8f93\u5165\u90ae\u7bb1\u5730\u5740",
+  "login.field.password": "\u8bf7\u8f93\u5165\u5bc6\u7801",
+  "login.field.rememberMe": "\u8bb0\u4f4f\u5bc6\u7801",
+  "login.button.login": "\u767b\u9646",
+
+  "home.nav.dashboard":"\u9762\u677f",
+  "home.nav.user":"\u7528\u6237",
+  "home.nav.userManagement":"\u7528\u6237\u7ba1\u7406",
+  "home.nav.myAccount":"\u6211\u7684\u8d26\u6237",
+
+  "user.management.title" : "\u7528\u6237\u7ba1\u7406",
+  "user.management.form.title":"\u7528\u6237\u4fe1\u606f",
+  "user.management.label.email" : "\u90ae\u7bb1\u5730\u5740",
+  "user.management.label.details" : "\u8be6\u7ec6\u4fe1\u606f",
+  "user.management.label.userGroup" : "\u7528\u6237\u7ec4",
+  "user.management.label.enabled" : "\u542f\u7528",
+
+  "user.profile.title" : "\u6211\u7684\u8d26\u6237",
+  "user.profile.form.myProfile":"\u4e2a\u4eba\u8d44\u6599",
+  "user.profile.label.joinTime" : "\u52a0\u5165\u65f6\u95f4",
+  "user.profile.label.name" : "\u59d3\u540d",
+  "user.profile.label.userGroup" : "\u7528\u6237\u7ec4",
+  "user.profile.form.emailManagement" : "\u90ae\u4ef6\u7ba1\u7406",
+  "user.profile.label.email" : "\u90ae\u7bb1\u5730\u5740",
+  "user.profile.label.email.helpInfo" : "\u5982\u679c\u8981\u66f4\u6362\u90ae\u4ef6\uff0c\u9700\u8981\u4ece\u65b0\u9a8c\u8bc1\u90ae\u7bb1\u3002",
+  "user.profile.label.password" : "\u5bc6\u7801",
+  "user.profile.label.newsInfo" : "\u6536\u5230\u6211\u4eec\u7684\u6700\u65b0\u6d88\u606f"
+}

@@ -6,8 +6,25 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "angular": "1.4.x",
+    "angular": "~1.4.x",
+    "angular-loader": "~1.4.x",
+    "angular-mocks": "~1.4.x",
+    "angular-resource": "~1.4.x",
+    "angular-cookies": "~1.4.x",
+    "angular-messages": "~1.4.x",
+    "angular-translate": "latest",
+    "angular-translate-loader-static-files": "latest",
+    "angular-ui-router": "latest",
     "bootstrap": "3.3.x",
-    "jquery": "~2.1.1"
+    "jquery": "~2.1.1",
+    "underscore" : "1.x.x",
+    "flot": "~0.8.3",
+    "angular-smart-table":"latest",
+    "font-awesome": "~4.2.0",
+    "holderjs": "~2.4.1",
+    "metisMenu": "~1.1.3",
+    "morrisjs": "~0.5.1",
+    "bootstrap-social": "~4.8.0",
+    "flot.tooltip": "~0.8.4"
   }
 }

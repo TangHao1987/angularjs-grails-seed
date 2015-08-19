@@ -1,0 +1,30 @@
+[
+  {
+    "id" : 1,
+    "email": "test1@123.com",
+    "password" : "root1",
+    "userGroup" : "admin",
+    "enabled" : true
+  },{
+    "id" : 2,
+    "email": "test2@123.com",
+    "password" : "test2",
+    "userGroup" : "member",
+    "enabled" : true,
+    "profileId" : 1
+  },{
+    "id" : 3,
+    "email": "test3@123.com",
+    "password" : "test3",
+    "userGroup" : "member",
+    "enabled" : true,
+    "profileId" : 2
+  },{
+    "id" : 4,
+    "email": "test4@123.com",
+    "password" : "test4",
+    "userGroup" : "member",
+    "enabled" : false,
+    "profileId" : 3
+  }
+]

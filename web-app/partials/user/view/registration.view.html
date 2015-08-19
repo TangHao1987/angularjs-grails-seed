@@ -1,0 +1,69 @@
+<div class="container">
+    <hr>
+    <h1 class="intro-text text-center">Easy Dashboard</h1>
+    <hr>
+    <div class="box">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    New User
+                </div>
+                <div class="panel-body">
+                    <form name="registrationForm" role="form">
+                        <div class="form-group"
+                             ng-class="{'has-error':registrationForm.email.$invalid && registrationForm.email.$dirty, 'has-success':registrationForm.email.$valid && registrationForm.email.$dirty}">
+                            <div class="row">
+                                <div class="controls col-lg-8">
+                                    <input id="email" name="email" type="email" class="form-control"
+                                           ng-model="email"
+                                           placeholder="Enter email" required/>
+                                </div>
+                                <div ng-show="registrationForm.email.$dirty" ng-messages="registrationForm.email.$error"
+                                     class="help-block col-lg-4">
+                                    <div ng-messages-include="messages.html"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group"
+                             ng-class="{'has-error':registrationForm.password.$invalid && registrationForm.password.$dirty, 'has-success':registrationForm.password.$valid && registrationForm.password.$dirty}">
+                            <div class="row">
+                                <div class="controls col-lg-8">
+                                    <input id="password" name="password" type="password" class="form-control"
+                                           ng-model="password"
+                                           placeholder="Enter password" required/>
+                                </div>
+                                <check-strength for="password" class="strength" ng-model="password"></check-strength>
+                                <div ng-show="registrationForm.password.$dirty"
+                                     ng-messages="registrationForm.password.$error"
+                                     class="help-block col-lg-4">
+                                    <div ng-messages-include="messages.html"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group"
+                             ng-class="{'has-error':registrationForm.cmfPassword.$invalid && registrationForm.cmfPassword.$dirty, 'has-success':registrationForm.cmfPassword.$valid && registrationForm.cmfPassword.$dirty}">
+                            <div class="row">
+                                <div class="controls col-lg-8">
+                                    <input id="cmfPassword" name="cmfPassword" type="password" class="form-control"
+                                           ng-model="cmfPassword"
+                                           placeholder="Enter password again" required compare-to="password"/>
+                                </div>
+                                <div ng-show="registrationForm.cmfPassword.$dirty"
+                                     ng-messages="registrationForm.cmfPassword.$error"
+                                     class="help-block col-lg-4">
+                                    <div ng-messages-include="messages.html"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
