@@ -17,9 +17,10 @@ Grails is really awesome framework with greatfully reduced efforts to setup proj
 ##### frontend technology
 - [AngularJS] angularJS framework
 - [bower] for front end library management
-- [bootstrap] to demo how to add css..
+- [bootstrap] to integrate angularJS with bootstrap
 
-pre request:
-- Node js need to be installed, as bower is used to manage the front end packages
-- need to run bower install to install bower components on the project root d
-- need to run grails target "refresh-dependencies" to install the asset plug in before run-app
+## pre request
+- Nodejs needs to be installed to use bower 
+- grails needs to be installed
+
+## project structure
